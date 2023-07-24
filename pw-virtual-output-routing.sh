@@ -3,7 +3,7 @@
 #--IMPORTANT--- Change this to some text unique to your audio device.
 # You can run 'pactl list short sinks' then pick a descriptive part of the name of your audio output device, such as the name.
 # For example, if my desired output is "alsa_output.usb-Razer_Razer_Kraken_Ultimate_00000000-00.analog-stereo", then I can use "Razer_Kraken_Ultimate" for the sink descriptor.
-sink_descriptor="Razer_Kraken_Ultimate"
+sink_descriptor=""
 
 # Wait until the 'pactl' command is ready for use and fail if it takes too long
 wait_for_pactl() {
